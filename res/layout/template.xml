@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_gravity="center_horizontal|center_vertical">
+
+    <com.app.GameFramework.GameView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+
+    <ImageView
+            android:id="@+id/tmp_homescreen_img"
+            android:layout_width="275dp"
+            android:layout_height="125dp"
+            android:background="#FF0000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="5dp"/>
+
+    <Button
+            android:id="@+id/tmp_start_btn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/tmp_homescreen_img"
+            android:layout_centerHorizontal="true" />
+
+    <Button
+            android:id="@+id/tmp_highscore_btn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/tmp_start_btn"
+            android:layout_centerHorizontal="true" />
+
+    <Button
+            android:id="@+id/tmp_quit_btn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/tmp_highscore_btn"
+            android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
